@@ -2,15 +2,19 @@ html,
 body{
   margin: 0px;
   padding: 0px;
+  background-color: #eee;
 }
 
 nav{
   height: 80px;
   width: 100%;
+  box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.94);
+  background-color: white;
 }
 
-nav .logo{
-  float: left;
+nav .logo img{
+  height: 30px;
+  padding: 20px;
 }
 
 nav p{
@@ -24,14 +28,14 @@ nav p{
 nav .links{
   float: right;
   margin: 15px 15px 0 0;
-  padding-top: 15px;
+  margin-top: -40px;
   padding-right: 30px;
 }
 
 nav .links a{
   font-family: 'Baloo Chettan', cursive;
   color: #ef5a20;
-  font-size: 25px;
+  font-size: 15px;
   text-decoration: none;
   padding-left: 10px;
   font-weight: lighter;
@@ -42,7 +46,23 @@ nav .links a:hover{
 }
 
 .container{
-  background-color: black;
+margin-left: 12%;
+}
+
+h1,
+h2{
+  font-family: 'Baloo Chettan', cursive;
+  color: #ef5a20;
+  font-size: 35px;
+}
+
+.text .mdl-textfield{
+  margin-left: 20px;
+}
+
+
+.mdl-switch{
+  margin-top: 10px;
 }
 
 .subcontainer{
@@ -52,52 +72,27 @@ nav .links a:hover{
   height: 550px;
   overflow: hidden;
   opacity: 0.4;
-}
-
-.descricao{
-  font-size: 90px;
-  font-family: 'Baloo Chettan', cursive;
-  color: white;
-  position: absolute;
-  margin-top: -450px;
-  margin-left: 30%;
-  text-shadow: 2px 2px #000000;
-}
-
-.subdescricao{
   font-size: 20px;
-  font-family: 'Baloo Chettan', cursive;
-  color: white;
-  position: absolute;
-  margin-top: -350px;
-  margin-left: 23%;
-  text-shadow: 2px 2px #000000;
-}
 
-.box-buttons{
-  text-align: center;
-  z-index: 2;
-  margin-top: -130px;
-  padding-bottom: 30px;
-  margin-left: -85px
 }
 
 .mdl-button{
+  margin-left: 25%;
+  margin-top: 20px;
+  height: 50px;
+  width: 500px;
   background-color: #ef5a20;
-  color: white;
-  font-size: 25px;
-  width: 200px;
-  height: 100px;
-  margin-left: 70px;
   font-family: 'Baloo Chettan', cursive;
+  font-size: 25px;
+  color: white;
 }
 
 .mdl-button:hover{
   background-color: #ef5a20;
-  color: white;
 }
 
 footer{
+  margin-top: 50px;
   height: 120px;
   width: 100%;
   background-color: #555;
