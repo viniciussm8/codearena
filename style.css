@@ -4,6 +4,25 @@ body{
   padding: 0px;
 }
 
-p{
-  color: red;
+nav{
+  height: 90px;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+nav .logo{
+  float: left;
+}
+
+nav p{
+  margin: 15px 0 0 15px;
+}
+
+nav .links{
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+.container img{
+  
 }
