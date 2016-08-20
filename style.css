@@ -6,7 +6,6 @@ body{
 
 nav{
   height: 80px;
-  border: 1px solid #000;
   width: 100%;
 }
 
@@ -16,11 +15,30 @@ nav .logo{
 
 nav p{
   margin: 15px 0 0 15px;
+  font-family: 'Baloo Chettan', cursive;
+  color: #ef5a20;
+  font-size: 45px;
+  padding-top: 10px;
 }
 
 nav .links{
   float: right;
   margin: 15px 15px 0 0;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+nav .links a{
+  font-family: 'Baloo Chettan', cursive;
+  color: #ef5a20;
+  font-size: 25px;
+  text-decoration: none;
+  padding-left: 10px;
+  font-weight: lighter;
+}
+
+nav .links a:hover{
+  text-decoration: underline;
 }
 
 .container{
@@ -36,13 +54,24 @@ nav .links{
   opacity: 0.4;
 }
 
-.container p{
+.descricao{
   font-size: 90px;
   font-family: 'Baloo Chettan', cursive;
   color: white;
   position: absolute;
-  margin-top: -500px;
+  margin-top: -450px;
   margin-left: 30%;
+  text-shadow: 2px 2px #000000;
+}
+
+.subdescricao{
+  font-size: 20px;
+  font-family: 'Baloo Chettan', cursive;
+  color: white;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 23%;
+  text-shadow: 2px 2px #000000;
 }
 
 .box-buttons{
@@ -69,10 +98,11 @@ nav .links{
 }
 
 footer{
-  height: 90px;
-  border: 1px solid #000;
+  height: 120px;
   width: 100%;
   position: fixed;
+  background-color: #555;
+  box-shadow: inset -1px 5px 26px -6px rgba(0,0,0,0.75);
 }
 
 /*Laranja
