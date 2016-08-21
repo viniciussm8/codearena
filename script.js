@@ -1,8 +1,9 @@
 //var app = angular.module('myApp', ['ui.router', 'ngAnimate', 'ui.bootstrap', 'ngRoute', 'toaster']);
 
 
+
 var ong = class {
-  constructor(nome, telefone, email, cnpj,endereco, numero, cidade, cep, estado, bio) {
+  constructor(nome, telefone, email, cnpj,endereco, numero, cidade, cep, estado, alimento, roupas,racao, cama,brinquedos,higiene,limpeza,moveis) {
     this.nome     = nome;
     this.telefone = telefone;
     this.email    = email;
@@ -12,15 +13,28 @@ var ong = class {
     this.cidade   = cidade;
     this.cep      = cep;
     this.estado   = estado;
-    this.bio      = bio;
+    this.alimento = false;
+    this.roupas   = false;
+    this.racao    = false;
+    this.cama     = false;
+    this.brinquedos = false;
+    this.higiene  = false;
+    this.limpeza  = false;
+    this.moveis   = false;
+
   }
-};
+}
 
 var listaDeOngs = [];
 
-var a = new ong("Matheus", "12345678", "email@email.com", "cnpj","rua bairro", "123", "pelotas", "cep", "RS", "Um texto de descricao");
-listaDeOngs.push(a);
-var b = new ong("Vini", "12345678", "email@email.com", "cnpj","rua bairro", "123", "pelotas", "cep", "RS", "Um texto de descricao");
-listaDeOngs.push(b);
-console.log(listaDeOngs[0].nome);
-console.log(listaDeOngs[1].nome);
+function registre() {
+  nome = document.getElementById("sample1").value;
+  var a = new ong(nome, "", "", "", "", "", "", "");
+  a.alimento = document.getElementById("switch-1").checked;
+  listaDeOngs.push(a);
+  console.log(listaDeOngs.length);
+  for (var i = 0; i < listaDeOngs.length; i++) {
+    console.log(listaDeOngs[i].nome);
+    console.log(listaDeOngs[i].alimento);
+  }
+}

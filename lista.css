@@ -1,4 +1,4 @@
-html,
+tml,
 body{
   margin: 0px;
   padding: 0px;
@@ -49,73 +49,49 @@ nav .links a:hover{
 }
 
 .subcontainer{
-  background-image: url("banner.jpg");
+  background-image: url("banner2.jpg");
   background-size: 100%;
   min-width: 100%;
   height: 550px;
   overflow: hidden;
-  opacity: 0.4;
 }
 
-.container img{
-  width: 500px;
-  position: absolute;
-  margin-top: -450px;
-  margin-left: 30%;
+.ong-card-list{
+  margin-left: 5px;
+  margin-top: -530px;
 }
 
-.subdescricao{
-  font-size: 20px;
-  font-family: 'Baloo Chettan', cursive;
-  color: white;
-  position: absolute;
-  margin-top: -310px;
-  margin-left: 23%;
-  text-shadow: 2px 2px 6px #222;
-}
-
-.box-buttons{
-  text-align: center;
-  z-index: 2;
-  margin-top: -130px;
-  padding-bottom: 30px;
-  margin-left: -85px
-}
-
-.mdl-button{
+.ong-card{
+  width: 400px;
+  height: 200px;
   background-color: #ef5a20;
-  font-size: 25px;
-  width: 200px;
-  height: 100px;
-  margin-left: 70px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-h1, h2{
-  margin-top: 13px;
+.ong-card p{
+  padding-left: 5px;
   color: white;
   font-family: 'Baloo Chettan', cursive;
+  margin: 0px;
 }
 
-h1{
-  font-size: 40px;
+.titulo{
+  font-size: 35px;
+  padding-top: 10px;
 }
 
-h2{
-  margin-top: -45px;
-  font-size: 15px;
+.info{
+  border-top: 1px dashed white;
+  padding-top: 5px;
 }
 
-.mdl-button:hover{
-  background-color: #ef5a20;
-  color: white;
-}
 
 footer{
   height: 120px;
   width: 100%;
   background-color: #555;
   box-shadow: inset -1px 5px 26px -6px rgba(0,0,0,0.75);
+  margin-top: 510px;
 }
-
-/*Laranja
-#ef5a20*/
