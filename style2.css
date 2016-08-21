@@ -61,10 +61,7 @@ nav .links a:hover{
 
 
 }
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  transform: rotateY(180deg);
-}
+
 
 .flip-container, .front, .back {
   width: 230px;
@@ -95,36 +92,61 @@ nav .links a:hover{
   transform: rotateY(0deg);
 }
 
+#alimento {
+  background: url(alimentos.png);
+  background-size: 230px 220px;
+}
+
+#roupa {
+  background: url(roupas.png);
+  background-size: 230px 220px;
+}
+
+#higiene {
+  background: url(higiene.png);
+  background-size: 230px 220px;
+}
+
+#cama {
+  background: url(cama.png);
+  background-size: 230px 220px;
+}
+
+#brinquedos {
+  background: url(brinquedos.png);
+  background-size: 230px 220px;
+}
+
+#limpeza {
+  background: url(limpeza.png);
+  background-size: 230px 220px;
+}
+
+#racao {
+  background: url(racao.png);
+  background-size: 230px 220px;
+}
+
+#moveis {
+  background: url(moveis.png);
+  background-size: 230px 220px;
+}
+
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
+  background:#ff8100;
 
 }
-.mdl-button{
-  margin-top: -10px;
-  background-color: #ef5a20;
-  color: white;
-  font-size: 25px;
-  width: 120px;
-  height: 50px;
-  font-family: 'Baloo Chettan', cursive;
-}
 
-.mdl-button:hover{
-  background-color: #ef5a20;
-  color: white;
-}
-
-.box-buttons{
+.back-title{
   text-align: center;
-  z-index: 2;
-  margin-top: 130px;
-  padding-bottom: 30px;
-  margin-left: 3px
+  margin-top: 15px;
 }
+
 
 .grid{
-  margin-left: 11%;
+  margin-left: 8%;
   margin-bottom: 25px;
   margin-top: -500px;
 }
@@ -136,10 +158,31 @@ nav .links a:hover{
   height: 550px;
   overflow: hidden;
   opacity: 0.4;
+
 }
 
 
+footer{
+  height: 113px;
+  width: 100%;
+  background-color: #555;
+  box-shadow: inset -1px 5px 26px -6px rgba(0,0,0,0.75);
+  margin-top: 500px;
+  color: white;
+}
 
+footer h1{
+  padding: 15px;
+  font-size: 25px;
+  float: left;
+  font-family: 'Baloo Chettan', cursive;
+}
 
-/*Laranja
-#ef5a20*/
+footer img{
+  margin-left: 25px;
+}
+
+footer .image-box{
+  float: right;
+  margin-right: 50px;
+}

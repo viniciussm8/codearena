@@ -1,191 +1,198 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>CodeArena 2016</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="categorias.css" media="screen" title="no title" charset="utf-8">
+<head>
+	<meta charset="utf-8">
+	<title>CodeArena 2016</title>
+	<link rel="stylesheet" href="style2.css" media="screen" title="no title" charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+	<script src="script.js"></script>
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <nav class="navbar">
-      <div class="logo">
-        <a href="index.html"><img src="logo.png" alt=""/></a>
-      </div>
+	<nav class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="logo.png" alt=""/></a>
+		</div>
 
-      <div class="links">
-        <a href="#">Quem Somos</a>
-        <a href="#">Como Funciona</a>
-        <a href="#">ONGs Cadastradas</a>
-      </div>
-    </nav>
+		<div class="links">
+			<a href="#">Quem Somos</a>
+			<a href="#">Como Funciona</a>
+			<a href="#">ONGs Cadastradas</a>
+		</div>
+	</nav>
 
-    <div class="container">
-      <div class="subcontainer">
-      </div>
-      <div class="grid">
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">Alimento</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+	<div class="container">
+		<div class="subcontainer"></div>
+		<div class="grid">
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="alimento"></div>
+					<div class="back">
+						<div class="back-logo"><p>Alimentos não perecíveis: Arroz, feijão, maças, cereais no geral, grãos, farinhas, açúcar, sal, etc.</p></div>
+						<!--<div class="back-title"></div>-->
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">Roupas</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="roupa"></div>
+					<div class="back">
+						<div class="back-logo">
+							<p>Camisas, calças, sapatos, casacos, vestidos, bermudas, shorts, etc.</p>
+						</div>
+						<!--<div class="back-title">Alimentos</div>-->
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">ONG X</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="higiene"></div>
+					<div class="back">
+						<div class="back-logo">
+							<p>Sabonete, shampoo, cremes, pasta de dente, protetor solar, repelente, etc</p>
+						</div>
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">ONG X</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="cama"></div>
+					<div class="back">
+						<div class="back-logo"></div>
+						<div class="back-title">Alimentos</div>
+						<p>Lençol, fronha, cobertores, edredom, toalha de banho, toalha de mesa, etc.</p>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">ONG X</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="brinquedos"></div>
+					<div class="back">
+						<div class="back-logo">
+							<p>Os mais variados brinquedos, de todas as idades.</p>
+						</div>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(racao.png) 0 0 no-repeat;">
-    					<span class="name">ONG X</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="limpeza"></div>
+					<div class="back">
+						<div class="back-logo">
+							<p>Desinfetantes, detergentes, materiais de limpeza, água sanitária, etc.</p>
+						</div>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">ONG X</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="racao"></div>
+					<div class="back">
+						<div class="back-logo">
+							<p>Ração para animais domésticos: Cachorros, gatos, pássaros, etc.</p>
+						</div>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="lista.html">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front" id="moveis"></div>
+					<div class="back">
+						<div class="back-logo">
+							<p>AMóveis e eletrodomésticos novos ou usados em bom estado.</p>
+						</div>
 
-    		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    			<div class="flipper">
-    				<div class="front" style="background: url(exemplo.jpg) 0 0 no-repeat;">
-    					<span class="name">ONG X</span>
-    				</div>
-    				<div class="back" style="background:#ef5a20;">
-    					<div class="back-logo"></div>
-    					<div class="back-title">ONG X</div>
-    					<p>Aqui vai as infos da ONG</p>
-    					<div class="box-buttons">
-    						<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-    							Button
-    						</button>
+						<div class="box-buttons">
+							<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+								Button
+							</button>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
 
-    <footer class="footer"></footer>
+		</div>
 
-  </body>
-</html>
+
+		<footer class="footer">
+	    <h1>Realizado por</h1>
+	    <div class="image-box">
+	      <img src="simbolo_code.png" alt="" height="100px" />
+	      <img src="http://fardamento.netshoes.net/BR/LNetshoes/production/20150812/BADGE/20150812BADGE0211922.png" alt="" height="50px" />
+	      <img src="http://linse-ufpel.com.br/img/ufpel.gif" alt="" height="50px" />
+	    </div>
+	  </footer>
+		
+	</body>
+	</html>

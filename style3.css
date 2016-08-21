@@ -30,9 +30,10 @@
 .window h4{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: #474747
-    ;    font-size: 18px;
+    color: #474747;
+    font-size: 18px;
     margin-top: -20px;
+    margin-left: -15px;
 }
 .window h5{
     font-family: 'Roboto', sans-serif;
@@ -92,7 +93,7 @@
 }
 
 .userContact #email{
-    width: 85%;    
+    width: 85%;
 }
 
 

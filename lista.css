@@ -1,4 +1,4 @@
-tml,
+html,
 body{
   margin: 0px;
   padding: 0px;
@@ -85,13 +85,32 @@ nav .links a:hover{
 .info{
   border-top: 1px dashed white;
   padding-top: 5px;
+  text-decoration: underline;
 }
 
 
 footer{
-  height: 120px;
+  height: 100px;
   width: 100%;
   background-color: #555;
   box-shadow: inset -1px 5px 26px -6px rgba(0,0,0,0.75);
-  margin-top: 510px;
+  margin-top: 530px;
+  color: white;
+}
+
+footer h1{
+  padding: 15px;
+  font-size: 25px;
+  float: left;
+  
+  font-family: 'Baloo Chettan', cursive;
+}
+
+footer img{
+  margin-left: 25px;
+}
+
+footer .image-box{
+  float: right;
+  margin-right: 50px;
 }

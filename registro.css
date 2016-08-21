@@ -92,11 +92,27 @@ h2{
 }
 
 footer{
-  margin-top: 50px;
-  height: 120px;
+  height: 100px;
   width: 100%;
   background-color: #555;
   box-shadow: inset -1px 5px 26px -6px rgba(0,0,0,0.75);
+  margin-top: 22px;
+}
+
+footer h1{
+  padding: 15px;
+  font-size: 25px;
+  float: left;
+  color: white;
+}
+
+footer img{
+  margin-left: 25px;
+}
+
+footer .image-box{
+  float: right;
+  margin-right: 50px;
 }
 
 /*Laranja
