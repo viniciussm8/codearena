@@ -1,0 +1,101 @@
+.window{
+    display:none;
+    width:800px;
+    height:450px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#EEE;
+    z-index:9900;
+    padding:50px;
+    border-radius:10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.window a{
+    float: right;
+    margin-top: -30px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.window h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: -15px;
+    color: #ef5a20;
+    font-size: 60px;
+}
+.window h4{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #474747
+    ;    font-size: 18px;
+    margin-top: -20px;
+}
+.window h5{
+    font-family: 'Roboto', sans-serif;
+    color: #474747;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -2px;
+}
+.window p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: #474747
+}
+
+#mapa {
+    bottom: 0;
+}
+
+#botazao {
+   font-family: 'Roboto', sans-serif;
+}
+
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+
+.fechar{display:block; text-align:right;}
+
+.text .mdl-textfield{
+  margin-left: 20px;
+}
+
+.mdl-button{
+  margin-right: 250px;
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: #ef5a20;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+
+.mdl-button:hover{
+  background-color: #ef5a20;
+}
+
+.userContact{
+    margin-left: 90px;
+
+}
+
+.userContact #email{
+    width: 85%;    
+}
+
+
+body {
+  background-color: black;
+}

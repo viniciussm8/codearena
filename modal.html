@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CodeArena 2016</title>
+	<link rel="stylesheet" href="style3.css" media="screen" title="no title" charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.deep_orange-red.min.css" />	
+	<script src="modal.js"></script>
+	<script src="script.js"></script>
+
+</head>
+<body>
+
+	<a href="#janela1" rel="modal">Janela modal</a>
+
+	<div class="window" id="janela1">
+		<h3>Cruz Vermelha</h3>
+		<h4> Aceitamos: Comida | Bebida | e outras paradas.</h4>
+		<p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura </p>
+		<h5> <b>Telefone:</b> (55) 5555-5555<br> <b>E-mail:</b> cruz@vermelho.com <br> <b>Endereço:</b> Elm Street, 1413</h5>
+		<a href="#cadastro" rel="modal">Gostaria que buscassemos em sua residencia?</a>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.3041580553504!2d-52.0971035848367!3d-32.033957681202715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95119c11ce115067%3A0x179926bddc73ff23!2sCruz+Vermelha+-+Unidade+Rio+Grande!5e0!3m2!1spt-BR!2sbr!4v1471737426015" width="500" height="200" frameborder="0" style="border:0" allowfullscreen id="mapa"></iframe>
+
+	</div>
+
+	<div class="window" id="cadastro">
+		<h3>Cruz Vermelha</h3>
+		<h4> Aceitamos: Comida | Bebida | e outras paradas.</h4>
+		<h5> <b>Telefone:</b> (55) 5555-5555<br> <b>E-mail:</b> cruz@vermelho.com <br> <b>Endereço:</b> Elm Street, 1413</h5>
+		<div class="userContact">
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="sample1">
+				<label class="mdl-textfield__label" for="sample3">Nome</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" id="sample2">
+				<label class="mdl-textfield__label" for="sample3">Telefone</label>
+			</div>
+
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="email">
+				<input class="mdl-textfield__input" type="text" id="sample3">
+				<label class="mdl-textfield__label" for="sample3">Email</label>
+			</div>
+			<div class="mdl-textfield mdl-js-textfield" id="email">
+				<textarea class="mdl-textfield__input" type="text" rows= "2" id="sample5" ></textarea>
+				<label class="mdl-textfield__label" for="sample5">Sua mensagem</label>
+			</div>
+			<br>
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="botazao">
+				Solicitar Ligação
+			</button>
+
+			
+		</div>
+
+	</div>
+
+
+
+	<!-- mascara para cobrir o site -->  
+	<div id="mascara"></div>
+
+</body>
+</html>
