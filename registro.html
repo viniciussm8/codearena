@@ -23,7 +23,6 @@
       <div class="links">
         <a href="#">Quem Somos</a>
         <a href="#">Como Funciona</a>
-        <a href="#">ONGs Cadastradas</a>
       </div>
     </nav>
 
@@ -122,12 +121,33 @@
           </label>
         </div>
 
+        <h2>Sua ONG pode buscar doações na casa de doadores?</h2>
+        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-9">
+          <input type="checkbox" id="switch-9" class="mdl-switch__input">
+          <span class="mdl-switch__label">Sim</span>
+        </label>
 
       </form>
 
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="registre()">
-        Registre!
-      </button>
+      <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button" onclick="registre()">Registre!</button>
+        <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+          <div class="mdl-snackbar__text"></div>
+          <button class="mdl-snackbar__action" type="button"></button>
+      </div>
+
+      <script>
+        (function() {
+          'use strict';
+          window['counter'] = 0;
+          var snackbarContainer = document.querySelector('#demo-toast-example');
+          var showToastButton = document.querySelector('#demo-show-toast');
+          showToastButton.addEventListener('click', function() {
+            'use strict';
+            var data = {message: 'Cadastro realizado com sucesso!'};
+            snackbarContainer.MaterialSnackbar.showSnackbar(data);
+          });
+        }());
+      </script>
 
     </div>
 
@@ -135,8 +155,8 @@
       <h1>Realizado por</h1>
       <div class="image-box">
         <img src="simbolo_code.png" alt="" height="100px" />
-        <img src="http://fardamento.netshoes.net/BR/LNetshoes/production/20150812/BADGE/20150812BADGE0211922.png" alt="" height="50px" />
-        <img src="http://linse-ufpel.com.br/img/ufpel.gif" alt="" height="50px" />
+        <img src="if.png" alt="" height="50px" />
+        <img src="ufpel.gif" alt="" height="50px" />
       </div>
 
     </footer>

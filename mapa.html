@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="portal">
   <head>
     <meta charset="utf-8">
     <title>CodeArena 2016</title>
+    <link rel="stylesheet" href="style3.css" media="screen" title="no title" charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.deep_orange-red.min.css" />
     <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <script src="modal.js"></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="lista.css" media="screen" title="no title" charset="utf-8">
+
+    <style media="screen">
+      .subcontainer{
+        background-image: url("mapa.png");
+        background-size: 100%;
+        background-size: cover;
+      }
+
+      .container{
+        height: 60px;
+      }
+    </style>
+
 
   </head>
   <body>
@@ -20,31 +36,18 @@
       </div>
 
       <div class="links">
-        <a href="quemSomos.html">Quem Somos</a>
-        <a href="comoFunciona.html">Como Funciona</a>
+        <a href="#">Quem Somos</a>
+        <a href="#">Como Funciona</a>
       </div>
     </nav>
 
     <div class="container">
       <div class="subcontainer">
+
       </div>
-        <img src="logo_branco.png"/>
-        <p class="subdescricao">Aproximando doadores que querem ajudar com ONGs que precisam de ajuda</p>
-        <div class="box-buttons">
-          <form style="display: inline" action="categorias.html" method="get">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"></a>
-              <h1>Doador</h1>
-              <h2>Faça sua doação</h2>
-            </button>
-          </form>
-          <form style="display: inline" action="registro.html" method="get">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-              <h1>ONG</h1>
-              <h2>Registre-se</h2>
-            </button>
-          </form>
-        </div>
     </div>
+
+
 
     <footer class="footer">
       <h1>Realizado por</h1>
@@ -53,7 +56,6 @@
         <img src="if.png" alt="" height="50px" />
         <img src="ufpel.gif" alt="" height="50px" />
       </div>
-
     </footer>
   </body>
 </html>

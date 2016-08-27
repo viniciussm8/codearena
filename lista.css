@@ -48,6 +48,7 @@ nav .links a:hover{
   background-color: black;
 }
 
+
 .subcontainer{
   background-image: url("banner2.jpg");
   background-size: 100%;
@@ -56,9 +57,24 @@ nav .links a:hover{
   overflow: hidden;
 }
 
+.subcontainer img{
+  position: relative;
+  float: right;
+  padding: 20px;
+}
+
+.subcontainer a{
+  font-family: 'Baloo Chettan', cursive;
+  float: right;
+  padding: 30px;
+  font-size: 20px;
+  margin-right: -40px;
+  color: white;
+}
+
 .ong-card-list{
   margin-left: 5px;
-  margin-top: -530px;
+  margin-top: -490px;
 }
 
 .ong-card{
@@ -86,6 +102,8 @@ nav .links a:hover{
   border-top: 1px dashed white;
   padding-top: 5px;
   text-decoration: underline;
+  font-family: 'Baloo Chettan', cursive;
+
 }
 
 
@@ -94,7 +112,7 @@ footer{
   width: 100%;
   background-color: #555;
   box-shadow: inset -1px 5px 26px -6px rgba(0,0,0,0.75);
-  margin-top: 530px;
+  margin-top: 490px;
   color: white;
 }
 
@@ -102,7 +120,7 @@ footer h1{
   padding: 15px;
   font-size: 25px;
   float: left;
-  
+
   font-family: 'Baloo Chettan', cursive;
 }
 

@@ -1,4 +1,9 @@
-//var app = angular.module('myApp', ['ui.router', 'ngAnimate', 'ui.bootstrap', 'ngRoute', 'toaster']);
+var app = angular.module('portal', []);
+
+app.controller("listOfOngs", function($scope, $window){
+  $scope.listOfProjects = JSON.parse(localStorage.getItem('listados'));
+  console.log($scope.listOfProjects);
+});
 
 
 var ong = class {
@@ -88,12 +93,14 @@ function registre() {
 
     //adicionando lista no localStorage
     localStorage.setItem('listados', JSON.stringify(listaDeOngs));
+
   }
 }
 
+
 //console.log(listaDeOngs);
 //localStorage.setItem('listados', JSON.stringify(listaDeOngs));
-console.log(JSON.parse(localStorage.getItem('listados')));
+//console.log(JSON.parse(localStorage.getItem('listados')));
 
 //var local = JSON.parse(localStorage.getItem('listados'));
 
